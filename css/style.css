@@ -1,0 +1,123 @@
+body { 
+	background: url(../img/cementerio.jpg) center center fixed;
+	background-size: cover;
+	max-width:960px;
+	margin:30px auto;
+	 
+}
+
+
+img{ width: 100%;
+border-radius: 50px;	
+}
+
+
+
+.misterio {
+	background: #4599ad;
+	border-radius: 280px;
+	padding;
+	22px;
+	box-shadow: 4px 5px 8px black;
+	text-align: center;
+}
+
+.principio {
+	background: #a2dae8;
+	border-radius: 500px;
+	padding: 27;
+	font-style: italic;
+	text-align: center;
+}
+
+.casa_encantada {
+	text-align: center;
+	background: #60858f;
+	border: 10px solid green;
+	border-radius: 30px;
+}
+
+.casa_encantada img {
+	width: 50%
+}
+
+
+.casa_encantada img:hover {
+	width: 75%;
+}
+
+.texto {
+	font-weight: thin;
+	border: 10px solid green;
+	font-size: 25px;
+	padding: 30px;
+	column-count: 2;
+	border-radius: 50px;
+	text-shadow: 1px 1px 0 coral;
+	font-style: italic;
+	background: #a2dae8
+}
+
+.tresde{
+	text-align: center} 
+
+.video{
+	text-align: center}
+
+h2{text-align: center;
+font-style: italic;
+font-size: 50px;
+background: green;
+border-radius:50px;  }
+
+
+nav a {
+	background: white;
+	font-size: 22px;
+	color: limegreen;
+	text-decoration: none;
+}
+
+.contenido{ background: white; padding: 10px; box-shadow: 3px 4px 8px rgba(0,0,0,.8)}
+
+
+footer{ background: rgba(0,0,0,.8); color: white; text-align: center; padding: 30px;}
+
+
+
+/* lo nuevo */
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}

@@ -1,0 +1,33 @@
+*{margin: 0;padding: 0; box-sizing: border-box;}
+body{ font-family: sans-serif;}
+
+.menuStyle1{
+width: 80vw;
+height: 100vh;
+background: rgba(0,0,0,.95);
+padding: 20px 18px 50px 40px;
+list-style:none;
+}
+
+.fixedmenu{ 
+  position: fixed;
+  top:0;
+  left:0px;
+  z-index:99;
+  }
+
+.fixedmenu a{ color:white; text-decoration: none;}
+
+.visible{ left:0px !important;}
+.desaparece{ left:-150px !important;}
+
+button{ float:right;}
+
+/* Desplazar contenido de la web al salir el menu
+.visible ~ #content{ padding-left:200px;}
+.desaparece ~ #content{ padding-left:0;}
+*/
+.fixedmenu, 
+#content{ transition: .5s;}
+
+#content{ max-width: 900px; margin: 0 auto; padding:10px; }
